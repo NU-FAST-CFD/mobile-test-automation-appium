@@ -11,6 +11,10 @@ public class ProductPage {
         this.driver = driver;
     }
 
+
+    
+
+    
     private By addToCartButton = By.id("com.saucelabs.mydemoapp.android:id/cartBt");
     private By backButton = By.xpath("//android.widget.ImageButton[@content-desc='Navigate up']");
 

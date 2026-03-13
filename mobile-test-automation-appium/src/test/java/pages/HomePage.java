@@ -11,6 +11,7 @@ public class HomePage {
         this.driver = driver;
     }
 
+    
     private By firstProduct = By.xpath("(//android.widget.ImageView)[1]");
     private By cartIcon = By.id("com.saucelabs.mydemoapp.android:id/cartIV");
     private By menuButton = By.id("com.saucelabs.mydemoapp.android:id/menuIV");
